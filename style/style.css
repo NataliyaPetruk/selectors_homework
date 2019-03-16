@@ -72,12 +72,8 @@ body {
 
 .container__about {
   display: inline-block;
-  width: 561.5px;
+  width: 40%;
   height: 300px;
-  margin-left: 100px;
-  margin-right: 10px;
-  margin-top: 30px;
-  margin-bottom: 0;
   box-shadow: 0 0 1px rgba(0,0,0,0.5);
 }
 
@@ -87,11 +83,8 @@ body {
 
 .container__tell {
   display: inline-block;
-  width: 561.5px;
+  width: 40%;
   height: 300px;
-  margin-right: 100px;
-  margin-left: 10px;
-  margin-top: 30px;
   box-shadow: 0 0 1px rgba(0,0,0,0.5);
 }
 
@@ -112,7 +105,7 @@ body {
 }
 
 .form__field {
-  display: block;
+  display: inline-block;
   margin-bottom: 10px;
   margin-top: 10px;
   box-sizing: border-box;
@@ -123,21 +116,6 @@ body {
   text-align: center;
   font-family: "Proxima Nova Regular";
   font-size: 20px;
-}
-
-.form__text {
-  font-family: "Proxima Nova Regular";
-}
-
-.form__section {
-  display: inline-block;
-  margin-left: 100px;
-  margin-top: 30px;
-  padding-bottom: 5px;
-  width: 1143px;
-  text-align: left;
-  background-color: white;
-  box-shadow: 0 0 1px rgba(0,0,0,0.5);
 }
 
 .main__section__h2__form {
@@ -175,15 +153,26 @@ img {
 
 .main {
   margin-bottom: 110px;
+  text-align: center;
 }
 
+.form__section {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 0 1px rgba(0,0,0,0.5);
+}
 
+.map__section {
+  width: 40%;
+  height: 410px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.5);
+  display: inline-block;
+}
 
 iframe {
   border: 0;
-  margin-left: 100px;
-  margin-top: 30px;
-  width: 1143px;
-  height: 409.813px;
-  box-shadow: 0 0 1px rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
 }
